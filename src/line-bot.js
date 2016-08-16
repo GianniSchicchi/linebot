@@ -4,8 +4,8 @@ import request from 'request';
 import config from '../config';
 
 const app = express();
-// const port = '7123';
-const port = process.env.PORT;
+const port = '7123';
+// const port = process.env.PORT;
 
 const { CHANNEL_ID, CHANNEL_SERECT, MID } = {
   CHANNEL_ID: '1477480748',
